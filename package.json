@@ -1,0 +1,44 @@
+{
+  "name": "app",
+  "version": "1.1.0",
+  "description": "A React Native application with Firebase Authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "./node_modules/.bin/tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/739900111999abwbkt/53.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/739900111999abwbkt/53/issues"
+  },
+  "homepage": "https://github.com/739900111999abwbkt/53#readme",
+  "dependencies": {
+    "@react-native-firebase/app": "^23.0.1",
+    "@react-native-firebase/auth": "^23.0.1",
+    "@react-native-firebase/database": "^23.0.1",
+    "@react-native-firebase/firestore": "^23.0.1",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/native-stack": "^7.3.25",
+    "react": "^19.1.1",
+    "react-native": "^0.81.0",
+    "react-native-agora": "^4.5.3",
+    "react-native-gifted-chat": "^2.8.1",
+    "react-native-safe-area-context": "^5.6.0",
+    "react-native-screens": "^4.14.1"
+  },
+  "overrides": {
+    "glob": "^10.0.0",
+    "rimraf": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.72.8",
+    "typescript": "^4.9.5"
+  }
+}
