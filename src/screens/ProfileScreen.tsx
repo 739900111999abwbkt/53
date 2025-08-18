@@ -129,6 +129,13 @@ const ProfileScreen = ({ navigation }: ProfileScreenProps) => {
           title="دخول غرفة الدردشة"
           onPress={() => navigation.navigate('Room')}
         />
+        <View style={{ marginTop: 10 }}>
+          <Button
+            title="بدء الكاريوكي"
+            onPress={() => navigation.navigate('Karaoke')}
+            color="#9b59b6"
+          />
+        </View>
       </View>
 
       {/* زر تسجيل الخروج */}
