@@ -9,6 +9,7 @@ import LoginScreen from '../screens/LoginScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import RoomScreen from '../screens/RoomScreen';
+import KaraokeScreen from '../screens/KaraokeScreen';
 
 // ‫تحديد أنواع الشاشات والبارامترات الخاصة بها
 export type RootStackParamList = {
@@ -16,6 +17,7 @@ export type RootStackParamList = {
   Register: undefined;
   Profile: { userId: string };
   Room: undefined;
+  Karaoke: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -59,6 +61,11 @@ const AppNavigator = () => {
               name="Room"
               component={RoomScreen}
               options={{ title: 'غرفة الدردشة' }}
+            />
+            <Stack.Screen
+              name="Karaoke"
+              component={KaraokeScreen}
+              options={{ title: 'كاريوكي' }}
             />
           </>
         ) : (
